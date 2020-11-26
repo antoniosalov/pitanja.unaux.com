@@ -1,0 +1,137 @@
+body{
+	background-color: #1e1e1e;
+}
+#header{
+	font-family: 'Ubuntu Mono', monospace;
+	margin-left: 0.2%;
+}
+#title{
+	font-size: 70px;
+	text-decoration: none;
+}
+#title:link{
+	color: #ffffff;
+}
+#title:visited{
+	color: #ffffff;
+}
+#title:hover{
+	color: #1aa3ff;
+}
+#title:active{
+	color: #1aa3ff;
+}
+#color{
+	color: #1aa3ff;
+}
+#desc{
+	color: #ffffff;
+	font-size: 20px;
+}
+#navbar{
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 25px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin-top: 2%;
+	position: sticky;
+	top: 0;
+}
+#navbar li{
+	float: left;
+	width: 19.6%;
+	border-right: 5px solid #1e1e1e;
+}
+#navbar li:last-child{
+	border-right: none;
+}
+#navbar a{
+	display: block;
+	background-color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10% 5%;
+}
+#navbar a:link{
+	color: #000000;
+}
+#navbar a:visited{
+	color: #000000;
+}
+#navbar a:hover{
+	color: #1aa3ff;
+	background-color: #1e1e1e;
+	font-weight: bold;
+}
+#navbar a:active{
+	color: #1aa3ff;
+	background-color: #1e1e1e;
+	font-weight: bold;
+}
+.drop{
+	position: relative;
+	display: inline-block;
+}
+.drop-content{
+	display: none;
+	position: absolute;
+  	background-color: #ffffff;
+  	min-width: 19.6%;
+  	text-transform: uppercase;
+  	
+}
+.dropbtn{
+	border-bottom: 5px solid #1e1e1e;
+}
+.drop-content a{
+	border-bottom: 5px solid #1e1e1e;
+}
+.drop:hover .drop-content{
+  	display: block;
+  	position: relative;
+}
+#message{
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 22px;
+	max-width: 50%;
+	color: #ffffff;
+	text-align: center;
+	margin-left: 25%; 
+	margin-top: 5%;
+}
+#fontup{
+	font-size: 40px;
+}
+.sep{
+	color: #1aa3ff;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 30px;
+	font-weight: bold;
+}
+#btn{
+	background-color: #1aa3ff;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 20px;
+	text-align: center;
+	color: #1e1e1e;
+	width: 28%;
+	padding: 2% 1%;
+}
+.btn2{
+	background-color: #1aa3ff;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 20px;
+	text-align: center;
+	color: #1e1e1e;
+	width: 20%;
+	padding: 2% 1%;
+}
+.end{
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 10px;
+	text-align: center;
+	color: #ffffff;
+}
